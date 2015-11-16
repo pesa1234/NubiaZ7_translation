@@ -246,7 +246,7 @@ Esci dalla visualizzazione per un attimo."</string>
     <string name="auto">Autom.</string>
     <string name="pref_capture_camera_title">Scatto rapido</string>
     <string name="capture_camera_back">Fotocamera posteriore</string>
-    <string name="capture_camera_front">Fotocamera anteriore</string>
+    <string name="capture_camera_front">Fotocamera frontale</string>
     <string name="select_photo_tips">Supporto per foto con %s pixel</string>
     <string name="select_photo_tips2">"Formato immagine non supportato! Si prega di scegliere un'immagine da %s pixel"</string>
     <string name="tripod_capture_tips">Usa un cavalletto</string>
