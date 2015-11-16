@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BreatLight_fadeTime_ent">
+        <item>0s.</item>
+        <item>1s.</item>
+        <item>2s.</item>
+        <item>3s.</item>
+        <item>4s.</item>
+        <item>5s.</item>
+    </string-array>
+    <string-array name="BreatLight_fullOffTime_ent">
+        <item>0s.</item>
+        <item>1s.</item>
+        <item>2s.</item>
+        <item>3s.</item>
+        <item>4s.</item>
+        <item>5s.</item>
+        <item>6s.</item>
+        <item>7s.</item>
+    </string-array>
+    <string-array name="BreatLight_fullOnTime_ent">
+        <item>0s.</item>
+        <item>1s.</item>
+        <item>2s.</item>
+        <item>3s.</item>
+        <item>4s.</item>
+        <item>5s.</item>
+        <item>6s.</item>
+        <item>7s.</item>
+    </string-array>
+    <string-array name="MobileData_SimAllowed_ent">
+        <item>Entrambe</item>
+        <item>Solo SIM-1</item>
+        <item>Solo SIM-2</item>
+    </string-array>
+	<string-array name="Contacts_CallLog_Tap_Dial_Sim_ent">
+        <item>Ultima usata</item>
+        <item>SIM-1</item>
+        <item>SIM-2</item>
+        <item>Select before call</item>
+    </string-array>
+
+    <string-array name="Contact_Foto_Size_ent">
+        <item>Predefinito</item>
+        <item>Medio</item>
+        <item>Grande</item>
+        <item>Tutto schermo</item>
+    </string-array>
+
+    <string-array name="BreatLight_Notifications_Leds_ent">
+        <item>Led centrale</item>
+        <item>Led laterali</item>
+        <item>Tutti i led</item>
+    </string-array>
+
+    <string-array name="Statusbar_Clock_Position_ent">
+        <item>Destra</item>
+        <item>Centrato</item>
+        <item>Sinistra</item>
+    </string-array>
+
+    <string-array name="Statusbar_Network_Speed_ent">
+        <item>Disabilitato</item>
+        <item>Download</item>
+        <item>Upload</item>
+        <item>Download e Upload</item>
+    </string-array>
+
+    <string-array name="Keys_Actions_ent">
+        <item>Nessuna</item>
+        <item>\"Menu\"</item>
+        <item>\"Home\"</item>
+        <item>\"Indietro\"</item>
+        <item>Applicazione precedente</item>
+        <item>Chiudi applicazione</item>
+        <item>Stand-by</item>
+        <item>Applicazioni recenti</item>
+        <item>Visualizza menu di spegnimento</item>
+        <item>Espandi barra delle notifiche</item>
+        <item>Libera memoria</item>
+        <item>Cerca</item>
+        <item>Dividi schermo</item>
+        <item>Modalità ad una mano</item>
+        <item>Screenshot</item>
+        <item>Screenshot a mano libera</item>
+        <item>Mostra pannello volume</item>
+    </string-array>
+
+    <string-array name="Quicksettings_Tiles_ent">
+        <item>Wi-Fi</item>
+        <item>Bluetooth</item>
+        <item>Modalità aereo</item>
+        <item>Rotazione</item>
+        <item>Posizione</item>
+        <item>Dati mobili</item>
+        <item>Dividi schermo</item>
+        <item>Suoneria</item>
+        <item>Blocco schermo</item>
+        <item>Ottimizza</item>
+        <item>Vibrazione</item>
+        <item>Quiete</item>
+        <item>Torcia</item>
+    </string-array>
+
+</resources>

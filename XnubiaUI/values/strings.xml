@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">XnubiaUI</string>
+
+    <string name="about">Xposed module for nubia UI 3.x tweaking...\nVersion</string>
+    <string name="action_settings">Settings</string>
+    <string name="xposeddescription">nubia UI tweak module</string>
+
+    <string name="pref_cat_systemui_title">User interface</string>
+    <string name="pref_cat_systemui_summary">User interface mods preferences</string>
+    <string name="pref_cat_settings_gesture_title">Enable gestures</string>
+    <string name="pref_cat_settings_gesture_summary">Allow to use gestures to do some actions</string>
+    <string name="pref_cat_main_title">Preferences</string>
+    <string name="need_xposed_restart">Please restart your phone for changes to take effect</string>
+    <string name="pref_cat_settings_allow_turn_on_off_sim_title">Manage your SIM cards</string>
+    <string name="pref_cat_settings_allow_turn_on_off_sim_summary">Allows to switch on/off SIM cards individually in system settings</string>
+    <string name="pref_cat_settings_summary">System settings mods preferences</string>
+    <string name="pref_cat_settings_title">System settings</string>
+    <string name="pref_cat_systemui_fix_alarm_summary">Fix the alarm display on the lock screen</string>
+    <string name="pref_cat_systemui_fix_alarm_title">Fix alarm</string>
+    <string name="pref_cat_settings_disable_nubia_account_title">Nubia account</string>
+    <string name="pref_cat_settings_disable_nubia_account_summary">Disable create Nubia account frame in accounts settings</string>
+    <string name="pref_cat_systemui_show_mobile_data_usage_summary">Display mobile data usage stats in statusbar</string>
+    <string name="pref_cat_systemui_show_mobile_data_usage_title">Mobile data usage</string>
+    <string name="pref_cat_keys_summary">Setup hardware keys behavior</string>
+    <string name="pref_cat_keys_title">Hardware keys</string>
+    <string name="pref_cat_keys_home_doubletap_lockscreen_summary">Locks screen by double-tap on \"Home\" button</string>
+    <string name="pref_cat_keys_home_doubletap_lockscreen_title">\"Home\" double-tap lockscreen</string>
+    <string name="pref_cat_launcher_disable_left_screen_summary">Disable left screen with photo modes in launcher</string>
+    <string name="pref_cat_launcher_disable_left_screen_title">Launcher left screen</string>
+    <string name="pref_cat_breathinglight_summary">Breathing Light events preferences</string>
+    <string name="pref_cat_breathinglight_title">Breathing Light</string>
+    <string name="pref_cat_breathinglight_settings_enable_summary">Allow to setup BreathingLight intervals</string>
+    <string name="pref_cat_breathinglight_settings_enable_title">Enable Breathing Light settings</string>
+    <string name="pref_cat_breathinglight_fade_time_summary">Time of fade in/out in seconds</string>
+    <string name="pref_cat_breathinglight_fade_time_title">Fade time</string>
+    <string name="pref_cat_breathinglight_full_on_time_summary">Time of led ON state</string>
+    <string name="pref_cat_breathinglight_full_on_time_title">Led ON time</string>
+    <string name="pref_cat_breathinglight_full_off_time_summary">Time of led OFF state</string>
+    <string name="pref_cat_breathinglight_full_off_time_title">Led OFF time</string>
+    <string name="pref_current_value">Current value:</string>
+    <string name="pref_cat_systemui_mobile_data_sim_allowed_summary">Allow turn on mobile data in quick settings only on desired SIM card</string>
+    <string name="pref_cat_systemui_mobile_data_sim_allowed_title">Allowed mobile data SIM cards</string>
+    <string name="ext_reboot_reboot">Reboot</string>
+    <string name="ext_reboot_title">Advanced reboot</string>
+    <string name="ext_reboot_fastreboot">Fast reboot</string>
+    <string name="ext_reboot_recovery">Recovery</string>
+    <string name="ext_reboot_bootloader">Bootloader</string>
+    <string name="pref_cat_systemui_ext_reboot_title">Advanced reboot</string>
+    <string name="pref_cat_systemui_ext_reboot_summary">Show advanced reboot options</string>
+    <string name="pref_cat_launcher_circular_workscpace_title">Infinite scrolling</string>
+    <string name="pref_cat_launcher_circular_workscpace_summary">Enable infinite scrolling on launcher (need disable left screen)</string>
+    <string name="version" translatable="false">0.366</string>
+    <string name="pref_cat_launcher_workspace_custom_grid_enable_title">Custom grid on launcher</string>
+    <string name="pref_cat_launcher_workspace_custom_grid_enable_summary">Allow to choose custom grid dimensions</string>
+    <string name="pref_cat_launcher_workspace_custom_grid_rows_title">Rows</string>
+    <string name="pref_cat_launcher_workspace_custom_grid_rows_summary">Number of grid rows on launcher</string>
+    <string name="pref_cat_launcher_workspace_custom_grid_columns_title">Columns</string>
+    <string name="pref_cat_launcher_workspace_custom_grid_columns_summary">Number of grid columns on launcher</string>
+    <string name="pref_cat_launcher_workspace_custom_grid_icon_size_title">Icon size</string>
+    <string name="pref_cat_launcher_workspace_custom_grid_icon_size_summary">Allow to setup icon size (also affects the size of the text)</string>
+    <string name="pref_cat_launcher_widgets_resize_enable_title">Resizable widgets</string>
+    <string name="pref_cat_launcher_widgets_resize_enable_summary">Makes all widgets resizable</string>
+    <string name="pref_cat_launcher_workspace_custom_grid_hotseat_icons_title">Dock icons</string>
+    <string name="pref_cat_launcher_workspace_custom_grid_hotseat_icons_summary">Number of icons in dock bar</string>
+    <string name="pref_cat_contacts_title">Call log/dialer</string>
+    <string name="pref_cat_contacts_summary">Call log/dialer mods preferences</string>
+    <string name="pref_cat_contacts_fio_enable_title">dummy</string>
+    <string name="pref_cat_contacts_fio_enable_summary">dummy</string>
+    <string name="pref_cat_contacts_fix_rus_t9_title">dummy</string>
+    <string name="pref_cat_contacts_fix_rus_t9_summary">dummy</string>
+    <string name="pref_cat_contacts_fix_dialer_layout_title">dummy</string>
+    <string name="pref_cat_contacts_fix_dialer_layout_summary">dummy</string>
+    <string name="pref_cat_contacts_callog_multiline_title">Call log multiline</string>
+    <string name="pref_cat_contacts_callog_multiline_summary">Enable multiline display of contact name in call log</string>
+    <string name="pref_cat_callog_tap_dial_sim_title">Call log preferred dial sim</string>
+    <string name="pref_cat_callog_tap_dial_sim_summary">Make call from chosen SIM card by tap on call log list item</string>
+    <string name="pref_cat_contacts_russian_quick_navigation_bar_title">dummy</string>
+    <string name="pref_cat_contacts_russian_quick_navigation_bar_summary">dummy</string>
+    <string name="pref_cat_contacts_show_call_type_title">Call type</string>
+    <string name="pref_cat_contacts_show_call_type_summary">Show call type icon in call log items</string>
+    <string name="pref_cat_contacts_hide_geocode_title">Geocode</string>
+    <string name="pref_cat_contacts_hide_geocode_summary">Hide geocode data in call log item</string>
+    <string name="pref_cat_contacts_clear_keypad_after_call_title">Clear keypad after call</string>
+    <string name="pref_cat_contacts_clear_keypad_after_call_summary">Clear keypad after make call by clicking list item when performing search by T9</string>
+    <string name="pref_cat_contacts_make_swipe_list_item_title">Hide icons\\Modify call log details</string>
+    <string name="pref_cat_contacts_make_swipe_list_item_summary">If active modify call log details and hides multisim and account info icons. You find them by swipe list item to the left.</string>
+    <string name="pref_cat_contacts_show_operator_logo_in_dial_key_title">Operator logo</string>
+    <string name="pref_cat_contacts_show_operator_logo_in_dial_key_summary">Show operator logo in dial key</string>
+    <string name="colorpicker_dialog_color_picker">Color Picker</string>
+    <string name="colorpicker_press_color_to_apply">Press on Color to apply</string>
+    <string name="pref_cat_contacts_dialpad_secondary_text_color_title">dummy</string>
+    <string name="pref_cat_contacts_dialpad_secondary_text_color_summary">dummy</string>
+    <string name="pref_cat_keys_switch_track_by_vol_keys_title">Audio tracks switching</string>
+    <string name="pref_cat_keys_switch_track_by_vol_keys_summary">Allow to switch audio tracks by long press on volume keys when phone screen is off</string>
+    <string name="today">Today</string>
+    <string name="duration">Duration</string>
+    <string name="ringer">Rang</string>
+    <string name="ringer_times">times</string>
+    <string name="pref_cat_contacts_call_by_swipe_title">Call by swipe</string>
+    <string name="pref_cat_contacts_call_by_swipe_summary">Make call by swipe to the right on call log list item instead of click on it</string>
+    <string name="pref_cat_contacts_dial_key1_color_title">First dial key color</string>
+    <string name="pref_cat_contacts_dial_key1_color_summary">Color of first dial key (default value is #45BF39, perform long click to set)</string>
+    <string name="pref_cat_contacts_dial_key2_color_title">Second dial key color</string>
+    <string name="pref_cat_contacts_dial_key2_color_summary">Color of second dial key (default value is #00B8F5, perform long click to set)</string>
+    <string name="pref_cat_contacts_dial_key1_operator_logo_title">SIM-1 operator logo</string>
+    <string name="pref_cat_contacts_dial_key1_operator_logo_summary">Allow to choose SIM-1 operator logo</string>
+    <string name="operator_logo_auto">Automatically</string>
+    <string name="pref_cat_contacts_dial_key2_operator_logo_title">SIM-2 operator logo</string>
+    <string name="pref_cat_contacts_dial_key2_operator_logo_summary">Allow to choose SIM-2 operator logo</string>
+    <string name="pref_cat_quickcontact_foto_size_title">Contact details foto size</string>
+    <string name="pref_cat_quickcontact_foto_size_summary">Allow to choose contact foto size in contact details activity</string>
+    <string name="pref_cat_incall_foto_size_title">In call foto size</string>
+    <string name="pref_cat_incall_foto_size_summary">Allow to choose contact foto size on call screen</string>
+    <string name="pref_cat_quickcontact_multiline_items_title">Multiline items in contact details</string>
+    <string name="pref_cat_quickcontact_multiline_items_summary">Allow to display multiline contact items on contact details activity</string>
+    <string name="pref_cat_quickcontact_full_foto_top_crop_title">Alternate photo crop</string>
+    <string name="pref_cat_quickcontact_full_foto_top_crop_summary">Crop only bottom of photo in full mode instead of top and bottom</string>
+    <string name="pref_cat_deskclock_title">Clock</string>
+    <string name="pref_cat_deskclock_summary">Clock mods preferences</string>
+    <string name="pref_cat_deskclock_no_alarm_description_limit_title">Alarm description</string>
+    <string name="pref_cat_deskclock_no_alarm_description_limit_summary">Remove 15 character limit of alarm description length</string>
+    <string name="pref_cat_deskclock_big_alarm_description_text_size_title">Alarm text size</string>
+    <string name="pref_cat_deskclock_big_alarm_description_text_size_summary">Makes text size of alarm information  bigger</string>
+    <string name="pref_cat_deskclock_alarm_description_multiline_title">Multiline alarm information</string>
+    <string name="pref_cat_deskclock_alarm_description_multiline_summary">Makes alarm information fields multiline</string>
+    <string name="pref_cat_keys_allow_torch_stay_on_title">Flashlight</string>
+    <string name="pref_cat_keys_allow_torch_stay_on_summary">Don\'t turn off flashlight after removing finger from \"Home\" button on lockscreen</string>
+    <string name="pref_cat_keys_home_doubletap_on_lockscreen_lockscreen_title">\"Home\" double-tap on lockscreen</string>
+    <string name="pref_cat_keys_home_doubletap_on_lockscreen_lockscreen_summary">Double-tap on \"Home\" button on lockscreen to deep sleep</string>
+
+    <string name="music_widget_title">Music</string>
+    <string name="pref_cat_systemui_extermal_players_control_title">External audio players control</string>
+    <string name="pref_cat_systemui_extermal_players_control_summary">Replace audio control widget on lockscreen to own widget that allow to control third party audio players</string>
+    <string name="pref_cat_systemui_location_tile_extend_title">Location tile</string>
+    <string name="pref_cat_systemui_location_tile_extend_summary">Allow go to location service settings by tap on triangle on location tile</string>
+    <string name="pref_cat_settings_disable_always_popup_usb_computer_connection_option_title">Usb connection settings dialog</string>
+    <string name="pref_cat_settings_disable_always_popup_usb_computer_connection_option_summary">Disable automatic popup of usb connetction settings dialog</string>
+    <string name="pref_cat_settings_disable_usb_connection_sound_title">USB connection sound</string>
+    <string name="pref_cat_settings_disable_usb_connection_sound_summary">If enabled no sound on USB connection</string>
+    <string name="pref_cat_systemui_quick_settings_columns_title">First row icons</string>
+    <string name="pref_cat_systemui_quick_settings_columns_summary">Allow to select count of icons in quick settings first row</string>
+    <string name="pref_cat_incallui_headsup_call_answer_title">Heads-up call notification</string>
+    <string name="pref_cat_incallui_headsup_call_answer_summary">Allow to show heads-up call notification instead of going to full screen call answer activity.</string>
+    <string name="pref_cat_systemui_battery_style_title">Battery style</string>
+    <string name="pref_cat_systemui_battery_style_summary">Select visual battery style</string>
+    <string name="string_default">Default</string>
+    <string name="pref_cat_systemui_statusbar_icons_size_title">Status bar icons size</string>
+    <string name="pref_cat_systemui_statusbar_icons_size_summary">Allow to choose status bar icons and text size</string>
+    <string name="pref_cat_systemui_show_clock_seconds_title">Seconds</string>
+    <string name="pref_cat_systemui_show_clock_seconds_summary">Show seconds in status bar clock</string>
+    <string name="pref_cat_systemui_statusbar_battery_size_override_title">Battery icon size</string>
+    <string name="pref_cat_systemui_statusbar_battery_size_override_summary">Allow to choose battery icon size separately from other icons size for the fine tuning</string>
+    <string name="pref_cat_incallui_blink_flashlight_when_ringign_title">Blink flashlight when ringing</string>
+    <string name="pref_cat_incallui_blink_flashlight_when_ringign_summary">Blink flashlight during incoming call ringing if phone was in locked state</string>
+
+    <string name="about_title">About</string>
+    <string name="about_summary">Learn about the people who created XnubiaUI, where to get support for this app etc.</string>
+
+    <string name="about_developers_label">Developer:</string>
+    <string name="about_developers"><a href="http://4pda.ru/forum/index.php?showuser=158025">SolarWarez</a>\nE-mail: solar.warez@yandex.ru</string>
+    <string name="about_translator_label">Translator:</string>
+    <string name="translator"></string>
+    <string name="about_version_label">Version of this app:</string>
+    <string name="about_support_label">Get support at:</string>
+    <string name="about_support">http://4pda.ru/forum/index.php?showtopic=684786</string>
+    <string name="about_donate_label">Donate:</string>
+    <string name="about_donate">I (SolarWarez) consider XnubiaUI as a hobby project that I don\'t expect to get paid for.
+        However, some people have asked for ways to donate to me to say \"thank you\" for making their tech life a bit more enjoyable and comfortable.
+        \n
+        \nSo here is a donation links:
+        \nYandex.Money: <a href="https://money.yandex.ru/embed/donate.xml?account=410012313458521&amp;quickpay=donate&amp;payment-type-choice=on&amp;default-sum=&amp;targets=Donation+to+SolarWarez&amp;target-visibility=on&amp;project-name=XnubiaUI&amp;project-site=http%3A%2F%2F4pda.ru%2Fforum%2Findex.php%3Fshowtopic%3D684786&amp;button-text=01&amp;successURL=">410012313458521</a>
+        \nPayPal: <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=PUKLXWLPVYF3Q&amp;lc=US&amp;item_name=Donation%20to%20SolarWarez&amp;currency_code=EUR&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">solar.warez@yandex.ru</a>
+        \n
+        \nPlease consider:
+        \n\t• The existence of this links doesn\'t mean that you have to donate. It\'s fine if you just click \"Thanks\" on my forum profile or enjoy XnubiaUI without saying anything.
+        \n\t• Please donate only if you want to thank me for the work I have done already, not in expectation of any future work.
+        \n\t• A donation doesn\'t entitle you for preferred/private support etc. As mentioned, it\'s only meant as a \"thank you\" gift.
+        \n
+        \nIf you still decide to donate - thank you, it\'s very much appreciated!
+    </string>
+    <string name="pref_cat_settings_allow_radio_without_ant_title">FM Radio</string>
+    <string name="pref_cat_settings_allow_radio_without_ant_summary">Allow to use built in FM radio player without plugged headset (of course if you phone have radio)</string>
+    <string name="pref_cat_settings_allow_disable_lockscreen_title">Disable lock screen</string>
+    <string name="pref_cat_settings_allow_disable_lockscreen_summary">Allows to turn off lock screen in security system settings</string>
+    <string name="pref_cat_breathinglight_notifications_leds_title">Notification leds</string>
+    <string name="pref_cat_breathinglight_notifications_leds_summary">Allow to choose led\'s which will visualise notification events</string>
+    <string name="pref_cat_keys_doubletap_timeout_summary">Allows to set double tap timeout in milliseconds (default 300)</string>
+    <string name="pref_cat_keys_doubletap_timeout_title">Double tap timeout</string>
+    <string name="pref_cat_systemui_statusbar_icon_white_color_title">Light statusbar color</string>
+    <string name="pref_cat_systemui_statusbar_icon_white_color_summary">Allows to choose light statusbar color (default value is #C6FFFFFF, perform long click to set)</string>
+    <string name="pref_cat_systemui_statusbar_icon_black_color_title">Dark status bar color</string>
+    <string name="pref_cat_systemui_statusbar_icon_black_color_summary">Allows to choose dark statusbar color (default value is #C64A4A4A, perform long click to set)</string>
+    <string name="pref_cat_incallui_reject_call_with_message_title">Reject call with message</string>
+    <string name="pref_cat_incallui_reject_call_with_messager_summary">Allows to reject call and send message from heads-up notification</string>
+    <string name="menu_action_export_preferences">Export preferences</string>
+    <string name="menu_action_import_preferences">Import preferences</string>
+    <string name="pref_cat_settings_disable_data_usage_restricted_notification_title">Restricted data notification</string>
+    <string name="pref_cat_settings_disable_data_usage_restricted_notification_summary">Disable showing notification when background mobile data restricted</string>
+    <string name="pref_cat_systemui_statusbar_clock_position_title">Clock position</string>
+    <string name="pref_cat_systemui_statusbar_clock_position_summary">Allows to choose where status bar clock will be displayed</string>
+    <string name="pref_cat_systemui_statusbar_show_network_speed_title">Network speed</string>
+    <string name="pref_cat_systemui_statusbar_show_network_speed_summary">Allows to show network speed in status bar</string>
+    <string name="pref_cat_launcher_hide_hotseat_icons_text_title">Dock bar icons text</string>
+    <string name="pref_cat_launcher_hide_hotseat_icons_text_summary">Allows to hide dock bar icons text</string>
+    <string name="pref_cat_systemui_statusbar_fix_notifications_icons_title">Notifications icons</string>
+    <string name="pref_cat_systemui_statusbar_fix_notifications_icons_summary">Fix of display notifications icons in status bar</string>
+    <string name="pref_cat_mms_allow_change_orientation_title">SMS/MMS application orientation</string>
+    <string name="pref_cat_mms_allow_change_orientation_summary">Allows auto-rotation on SMS/MMS application</string>
+    <string name="pref_cat_contacts_allow_change_orientation_title">Contacts/Dialer application orientation</string>
+    <string name="pref_cat_contacts_allow_change_orientation_summary">Allows auto-rotation on Contacts/Dialer application</string>
+    <string name="pref_cat_systemui_statusbar_always_hide_alarm_icon_title">Alarm icon</string>
+    <string name="pref_cat_systemui_statusbar_always_hide_alarm_icon_summary">Do not show the alarm icon in the status bar</string>
+    <string name="pref_cat_security_title">Security</string>
+    <string name="pref_cat_security_summary">Security mods preferences</string>
+    <string name="pref_cat_security_time_pin_title">PIN with time</string>
+    <string name="pref_cat_security_time_pin_summary">PIN code with time. Warning! If you don\'t understand what this option mean - do not turn it on!!!</string>
+    <string name="pref_cat_launcher_wallpaper_scroll_title">Scroll wallpaper</string>
+    <string name="pref_cat_launcher_wallpaper_scroll_summary">Allows to scroll wallpapers (parallax effect)</string>
+    <string name="pref_cat_contacts_dont_show_contacts_without_phone_number_title">Contacts without phone number</string>
+    <string name="pref_cat_contacts_dont_show_contacts_without_phone_number_summary">Don\'t show contacts without phone number</string>
+    <string name="select_sim_card">Select SIM card to dial</string>
+    <string name="pref_cat_settings_show_naviagation_bar_title">Navigation bar</string>
+    <string name="pref_cat_settings_show_naviagation_bar_summary">Allows to show on screen soft keys</string>
+    <string name="pref_cat_launcher_autorotate_title">Launcher orientation</string>
+    <string name="pref_cat_launcher_autorotate_summary">Allows launcher auto-rotation</string>
+    <string name="pref_cat_systemui_statusbar_fix_notifications_action_buttons_title">Notifications actions</string>
+    <string name="pref_cat_systemui_statusbar_fix_notifications_action_buttons_summary">Allows to fix icons and text colors on notifications</string>
+    <string name="pref_cat_contacts_hide_yellowpage_title">Yellow pages</string>
+    <string name="pref_cat_contacts_hide_yellowpage_summary">Hide \"Yellow pages\" page from contacts application</string>
+    <string name="pref_cat_systemui_show_lunar_calendar_title">Lunar calendar</string>
+    <string name="pref_cat_systemui_show_lunar_calendar_summary">Display lunar calendar</string>
+    <string name="pref_cat_incallui_hide_incallui_title">In call UI</string>
+    <string name="pref_cat_incallui_hide_incallui_summary">Allows to don\'t display \"In call UI\" after call answer</string>
+    <string name="version_str">version</string>
+    <string name="pref_cat_systemui_statusbar_icons_gap_title">Status bar icons gap</string>
+    <string name="pref_cat_systemui_statusbar_icons_gap_summary">Allows to choose gap between status bar icons</string>
+    <string name="app_killed">%s killed</string>
+    <string name="nothing_to_kill">There\'s nothing to kill</string>
+    <string name="no_previous_app_found">No previous app found</string>
+
+    <string name="pref_cat_keys_menu_title">\"Menu\" key</string>
+    <string name="pref_cat_keys_home_title">\"Home\" key</string>
+    <string name="pref_cat_keys_back_title">\"Back\" key</string>
+    <string name="pref_cat_keys_other_title">Other</string>
+
+    <string name="pref_cat_keys_singletap_action_title">Single-tap action</string>
+    <string name="pref_cat_keys_singletap_action_summary">Select key single-tap action</string>
+    <string name="pref_cat_keys_doubletap_enable_title">Double-tap</string>
+    <string name="pref_cat_keys_doubletap_enable_summary">Enable key double-tap actions</string>
+    <string name="pref_cat_keys_doubletap_action_title">Double-tap action</string>
+    <string name="pref_cat_keys_doubletap_action_summary">Select key double-tap action</string>
+    <string name="pref_cat_keys_longpress_action_title">Long-press action</string>
+    <string name="pref_cat_keys_longpress_action_summary">Select key long-press action</string>
+    <string name="pref_cat_keys_disable_hw_keys_title">Hardware keys</string>
+    <string name="pref_cat_keys_disable_hw_keys_summary">Allows to disable hardware keys</string>
+    <string name="pref_cat_systemui_hide_clock_am_pm_title">Hide AM/PM</string>
+    <string name="pref_cat_systemui_hide_clock_am_pm_summary">Allows to hide AM/PM from clock</string>
+    <string name="pref_cat_systemui_statusbar_clock_title">Statusbar clock</string>
+    <string name="pref_cat_security_back_longpress_to_unlock_title">Long-press on \"Back\" to unlock</string>
+    <string name="pref_cat_security_back_longpress_to_unlock_summary">Performing long-press on \"Back\" key will unlock device.\nWarning! Device will unlocked even if PIN-code or password is set!</string>
+    <string name="pref_cat_security_back_longpress_to_unlock_delay_title">Long-press delay</string>
+    <string name="pref_cat_security_back_longpress_to_unlock_delay_summary">Defines for how long (in seconds) key must be pressed to trigger device unlock</string>
+    <string name="pref_cat_settings_disable_camera_set_max_brightness_title">Camera screen brightness</string>
+    <string name="pref_cat_settings_disable_camera_set_max_brightness_summary">Allows to disable the screen brightness control for Camera application</string>
+    <string name="pref_cat_settings_camera_set_max_brightness_title">Camera screen brightness</string>
+    <string name="pref_cat_settings_camera_set_max_brightness_summary">Set max screen brightness when Camera application run</string>
+    <string name="pref_cat_systemui_statusbar_lunar_calendar_singleline_title">Status bar lunar calendar</string>
+    <string name="pref_cat_systemui_statusbar_lunar_calendar_singleline_summary">Allows to display lunar calendar in status bar in single line</string>
+    <string name="pref_cat_systemui_lockscreen_lunar_calendar_singleline_title">Lock-screen lunar calendar</string>
+    <string name="pref_cat_systemui_lockscreen_lunar_calendar_singleline_summary">Allows to display lunar calendar on lock-screen in single line</string>
+    <string name="pref_cat_systemui_quick_settings_tiles_override_title">Visible tiles</string>
+    <string name="pref_cat_systemui_quick_settings_tiles_title">Quick settings tiles</string>
+    <string name="pref_cat_systemui_quick_settings_tiles_override_summary">Allows to select which quick settings tiles will be shown</string>
+    <string name="pref_cat_systemui_quick_settings_tiles_summary">Allows to select which quick settings tiles will be shown</string>
+    <string name="pref_cat_contacts_call_answer_by_vol_keys_title">Answer call by volume keys</string>
+    <string name="pref_cat_contacts_call_answer_by_vol_keys_summary">Allows to answer incoming call by simultaneously pressing Volume Up and Volume Down keys</string>
+
+
+</resources>
